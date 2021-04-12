@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/89c0fdea1a.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-        <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway&thickness=2' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
@@ -27,30 +29,98 @@
         <div class="collapse navbar-collapse justify-content-end ml-auto" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#about-me">About Me</a>
             <a class="nav-link" href="#">Pricing</a>
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </div>
         </div>
     </nav>
 
-    <header class="home-message">
+    <section class="home-message">
         <video autoplay muted loop id="myVideo">
             <source src="vids/home-video.mp4" type="video/mp4">
         </video>
         <div class="content">
-            <div class="content-message">
+            <div class="message-box">
                 <h1 class = "header-message-title">
                     <span
                        class="txt-rotate"
-                       data-period="2000"
-                       data-rotate='[ "Hi, I&#39m Ahmed.", "I&#39m a backend developer.", "with ability to handle frontend tasks.", "Welcome to my Portoflio!" ]'></span>
+                       data-period="1000"
+                       data-rotate='[ "Hi! I&#39m Ahmed. Welcome to my portfolio!"]'></span>
                   </h1>
-                  <h2 class = "header-message-body">This &lt;my code&gt; portoflio.</h2>
+                  <p class = "header-message-body mt-md-5">I can provide &lt;solutions&gt; for your web development requirements.</p>
+                  <div class="message-box-icons">
+                    <a href="https://dev.to/theahmedlatif" class="fab fa-dev message-icon"></a>
+                    <a href="https://www.youtube.com/channel/UCDUNcWh5TORgXAXLF1biJpA" class="fab fa-youtube message-icon"></a>
+                    <a href="https://www.linkedin.com/in/ahmlatif/" class="fab fa-linkedin message-icon"></a>
+                    <a href="https://github.com/theahmedlatif" class="fab fa-github message-icon"></a>
+                  </div>
             </div>
         </div>
-    </header>
+      </section>
 
+      <section class="about-me" id="about-me">
+        <div class="container-fluid about-content" >
+          <div class="media w-90">
+            <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-lg-8 text-center">
+                      <h2 class="text-white mt-0 about-me-title">I dedicate myself to learn!</h2>
+                      <hr class="divider light my-4">
+                      <p class="text-white-50 mb-4">I spent last 2 years gaining knowledge in several topics related to Computer Science. 
+                        Since I'm self taught I changed my focus starting last year to gain practical experience.
+                      You can download my CV from the below link.</p>
+                      <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get my CV</a>
+                  </div>
+              </div>
+          </div>
+        </div> 
+      </section>
+
+      <section class="repository">
+        <div class="card-header"></div>
+        <div class="container-fluid repository-content">
+          <div class="container cards">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card border-primary h-100">
+                  <h5 class="card-header bg-primary text-light font-weight-bold">Visa Center Application</h5>
+                  <div class="card-body">
+                    <p class="card-text">This Application is demonstration for managing visa center applicants, in terms of receiving passports and managing visa status (received, pending, rejected or approved)
+                    </p>
+                    <div class="card-text">
+                      <h6><small class="text-muted">Technology:</small></h5>
+                      <i class="fab fa-laravel tech-icon"></i>
+                      <i class="tech-icon"><img src="imgs/mysql.svg" height="20" width="40"></i>
+                      <i class="fab fa-bootstrap tech-icon"></i>
+                      <i class="fab fa-html5 tech-icon"></i>
+                      <i class="fab fa-css3-alt tech-icon"></i>
+                    </div>
+                  </div>
+                  <div class="card-footer bg-white border-top-0">
+                    <a href="https://github.com/theahmedlatif/VisaCenter" class="btn btn-primary"><span class="fab fa-github"></span> Source Code</a>
+                    <a href="https://www.youtube.com/watch?v=15LzQRlW1cs" class="btn btn-primary"><span class="fab fa-youtube"></span> Video Presentation</a>
+                    <a href="https://dev.to/theahmedlatif/role-status-based-crud-application-using-laravel-7-7h9" class="btn btn-primary"><span class="fab fa-dev"></span> Blog Post</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card border-primary h-100">
+                  <h5 class="card-header bg-primary text-light font-weight-bold">Egypt Museums API</h5>
+                  <div class="card-body">
+                    <p class="card-text">This API was created using native php provides list of museums in Egypt.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-white border-top-0">
+                    <a href="https://github.com/theahmedlatif/egypt_museums_api" class="btn btn-primary"><span class="fab fa-github"></span> Source Code</a>
+                    <a href="https://dev.to/theahmedlatif/my-first-api-using-native-php-4jjf" class="btn btn-primary"><span class="fab fa-dev"></span> Blog Post</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

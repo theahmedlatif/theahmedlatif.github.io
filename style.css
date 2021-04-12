@@ -1,87 +1,164 @@
-body 
-{
+html {
+  scroll-behavior: smooth;
+}
+
+body {
     font-family: 'Nunito' !important;
 }
 
-nav
-{
-    padding-left: 4em !important;
+nav {
+    /* padding-left: 4em !important;
     padding-right: 4em !important;
     padding-top: 1em !important;
-    padding-bottom: 1em !important;
+    padding-bottom: 1em !important; */
 
 }
 
-.nav-link
-{
+.nav-link {
     font-size: 1.3em;
+    margin: 0.5em;
+    transition-duration: 500ms;
 }
 
-.nav-link.active
-{
-    color: rgb(22, 212, 124) !important;
+.nav-link.active {
+    color: rgb(30,120,162) !important;
     font-size: 1.32em !important;
     font-weight: bold !important;
 }
 
-.nav-link:hover{
-    color: rgb(22, 212, 124) !important;
-    transition: 500ms;
-    font-size: 1.32em;
+.nav-link:hover {
+    color: rgb(30,120,162) !important;
     font-weight: bold;
 }
 
-header{
-    height: 80vh;
+.home-message {
+    height: 100vh !important;
     width: 100%;
-    background-size: 100%;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: fixed;
+    position: absolute;
+    display: block;
+    margin: 0;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    /* border-top-left-radius:0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 45vh 2.5vw;
+    border-bottom-right-radius: 45vh 2.5vw; */
   }
   
   /* Add some content at the bottom of the video/page */
   .content {
-    position: fixed;
+    position: absolute;
+    right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
     text-align: center !important;
-    padding: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 45vh 2.5vw;
+    border-bottom-right-radius: 45vh 2.5vw; */
   }
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
+
+  .message-box {
+    margin-top: 3em;
   }
 
   .header-message-title,.header-message-body {
-    font-weight: 200;
-    margin: 0.4em 0;
+    /* font-weight: 200; */
+    font-family: 'Raleway';
+    /* margin: 0.4em 0; */
   }
-  .header-message-title { font-size: 3.5em; }
+  .header-message-title { 
+    font-size: 2.5em; 
+    height: 3em;
+    font-weight: 100;
+    /* margin-top: 1.5em; */
+  }
   .header-message-body {
-    color: #888;
-    font-size: 2em;
+    color:rgb(2, 32, 46);
+    background-color: rgba(245, 245, 245, 0.281);
+    font-size: 1.75em;
+    font-weight:lighter;
+    text-shadow: 1px 2px 3px rgb(18, 73, 99);
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    /* margin-top: 2.5em; */
   }
+
+  .message-box-icons{
+    margin-top: 4em;
+  }
+
+  .message-icon{
+    font-size: 2em;
+    margin: 0.3em;
+    text-decoration: none !important;
+    color: white !important;
+
+  }  
+
+  .message-icon:hover{
+    font-size: 2.05em;
+    margin: 0.29em;
+    color: rgb(30,120,162) !important;
+    transition: 500ms;
+    text-shadow: 0px 3px 6px rgb(18, 73, 99);
+    text-decoration: none !important;
+
+  }  
+
+
+  .about-me {
+    height: 100vh !important;
+    width: 100%;
+    background: rgb(30,120,162);
+    margin-top: -3em;
+    padding-top: 4em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+  .about-content {
+    margin-top: 4em;
+    color: white;
+  }
+
+  .about-me-title{
+    font-size: 4em;
+    font-weight: bolder;
+  }
+
+  .divider{
+    border-color: white;
+  }
+
+  .repository {
+    height: 100vh !important;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 4em;
+    margin-top: -2em;
+  }
+
+  .card {
+    background-color: transparent !important;
+    margin-top: 2em;
+  }
+
+  .tech-icon{
+    margin-right: 0.25em;
+    font-size: 1.5em;
+  }
+

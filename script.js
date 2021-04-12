@@ -2,7 +2,7 @@ var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
+    this.period = parseInt(period, 10) || 1000;
     this.txt = '';
     this.tick();
     this.isDeleting = false;
@@ -12,11 +12,11 @@ var TxtRotate = function(el, toRotate, period) {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
   
-    if (this.isDeleting) {
-      this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
+    // if (this.isDeleting) {
+    //   this.txt = fullTxt.substring(0, this.txt.length - 1);
+    // } else {
       this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
+    //}
   
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
@@ -54,3 +54,4 @@ var TxtRotate = function(el, toRotate, period) {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
   };
+  
