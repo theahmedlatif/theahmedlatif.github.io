@@ -1,0 +1,67 @@
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75);
+}
+  
+.header-text {
+    font-family: 'Handlee';
+}
+  
+.header-paragraph {
+    font-family: 'Handlee';
+}
+  
+.fa-grin-beam {
+    color: rgb(255, 193, 7);
+}
+
+.header-divider {
+    border-color: #C8651B !important;
+}
+
+.header-icons-list {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.header-icon {
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+.header-icon:hover {
+    color:#C8651B !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color:#C8651B !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color:#C8651B !important;
+}
+
+
+.header-btn {
+    background-color: #C8651B !important; 
+}
+
+.header-btn:hover {
+    background-color: #fff !important; 
+    box-shadow: 0px 1px 3px #FEDA15 !important;
+    color: #C8651B !important;
+    font-weight: 800 !important;
+}
+
+.about-me-title {
+    font-family: 'Handlee';
+}
+
+.about-me-text {
+    font-family: 'Handlee';
+    font-size: 1.2em;
+    color: #fff !important;
+}
+
+.fa-file-pdf {
+    font-size: 1.2em;
+}
