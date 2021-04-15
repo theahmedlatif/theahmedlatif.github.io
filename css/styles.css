@@ -30,6 +30,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
+  --scarlet: #DE0001;
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
@@ -48,7 +49,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Handlee';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -6074,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0B1F65 !important;
+  background-color: #00978A !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10019,7 +10020,7 @@ hr.light {
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #212529;
+  color: #00978A; /*change: color modified from #212529 to #00978A*/
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -10029,10 +10030,10 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #DE0001; /*change: color modified from #f4623a to #DE0001*/
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a;
+  color: #DE0001; /*change: color modified from #f4623a to #DE0001*/
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10057,26 +10058,26 @@ hr.light {
   }
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #fff !important;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529;
+    color: #00978A; /*change: color modified from #212529 to #00978A*/
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #f4623a;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #00978A; /*change: color modified from #212529 to #00978A*/
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #DE0001; /*change: color modified from #f4623a to #DE0001*/
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/pexels-bg.jpg");
+  background: linear-gradient(to bottom, rgb(73 74 76 / 80%) 0%, rgb(90 63 63 / 80%) 100%), url("../assets/img/pexels-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

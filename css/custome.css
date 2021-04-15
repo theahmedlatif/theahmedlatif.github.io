@@ -15,7 +15,7 @@
 }
 
 .header-divider {
-    border-color: #C8651B !important;
+    border-color: #DE0001 !important;
 }
 
 .header-icons-list {
@@ -29,26 +29,37 @@
 }
 
 .header-icon:hover {
-    color:#C8651B !important;
+    color:#DE0001 !important;
+}
+
+
+.nav-link {
+    font-family: 'Handlee' !important;
+    font-size: 1.2em !important;
+}
+
+.navbar-brand {
+    font-family: 'Handlee' !important;
+    font-size: 1.5em !important;
+}
+
+.navbar-scrolled {
+    background-color: #fff !important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color:#C8651B !important;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-    color:#C8651B !important;
+    /* color:#DE0001 !important; */
 }
 
 
 .header-btn {
-    background-color: #C8651B !important; 
+    background-color: #DE0001 !important; 
 }
 
 .header-btn:hover {
     background-color: #fff !important; 
-    box-shadow: 0px 1px 3px #FEDA15 !important;
-    color: #C8651B !important;
+    box-shadow: 0px 1px 3px #DE0001 !important;
+    color: #DE0001 !important;
     font-weight: 800 !important;
 }
 
@@ -62,6 +73,100 @@
     color: #fff !important;
 }
 
+.about-me-btn {
+    color: #00978A !important;
+}
+
+.about-me-btn:hover {
+    border-color: #fff !important;
+    transition: .5s ease-in;
+    box-shadow: 0px 1px 3px #0d5751 !important;    
+}
+
 .fa-file-pdf {
     font-size: 1.2em;
+}
+
+.toolbox-title {
+    font-family: 'Handlee';
+    font-weight: bold;
+    color: #DE0001 !important;
+}
+
+.toolbox-icon{
+    color: #DE0001 !important;
+}
+
+.toolbox-divider, .toolbox-text {
+    border-color: #0d5751 !important;
+
+}
+
+.toolbox-text {
+    font-family: 'Handlee' !important;
+    font-weight: 700 !important;
+}
+
+.projects-section {
+    background-color: #FFCE13 !important;
+}
+
+.projects-title {
+    font-family: 'Handlee' !important;
+    font-weight: 700 !important; 
+    color: #343a40  !important;  
+}
+
+.project-category {
+    font-family: 'Merriweather Sans' !important;
+    font-size: 1.25em !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+}
+
+.project-name {
+    font-family: 'Merriweather Sans' !important;
+    font-size: 1.5em !important;
+    color: #FFCE13 !important;
+    margin-bottom: .5em;
+}
+
+.project-box {
+    position:relative !important;
+    background-color: #fff !important;
+}
+
+.project-caption {
+    position: absolute !important;
+    display: none !important;
+    z-index:100 !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: rgba(48, 49, 61, 0.658);
+    height: 100% !important;
+    width: 100% !important;
+}
+  
+.project-caption-content {
+}
+
+.project-box:hover .project-caption{
+    display:flex !important;
+    vertical-align: middle !important;
+    transition: ease-in;
+}
+
+.more-project-icon {
+    font-size: 1.75em;
+}
+
+.action-icon {
+    margin-bottom: 15px;
+    font-size: 8em;
+}
+.fa-dev.action-icon:hover {
+    color: black;
+}
+.fa-youtube.action-icon:hover {
+    color: rgb(255,0,0);
 }
