@@ -49,7 +49,7 @@
 }
 
 html {
-  font-family: 'Handlee';
+  font-family: 'PT Sans', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -10020,7 +10020,7 @@ hr.light {
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #00978A; /*change: color modified from #212529 to #00978A*/
+  color: #DE0001; /*change: color modified from #212529 to #DE0001*/
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -10061,13 +10061,13 @@ hr.light {
     background-color: #fff !important;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #00978A; /*change: color modified from #212529 to #00978A*/
+    color: #DE0001; /*change: color modified from #212529 to #DE0001*/
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #f4623a;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #00978A; /*change: color modified from #212529 to #00978A*/
+    color: #DE0001; /*change: color modified from #212529 to #DE0001*/
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #DE0001; /*change: color modified from #f4623a to #DE0001*/

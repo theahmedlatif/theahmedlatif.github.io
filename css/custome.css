@@ -34,12 +34,12 @@
 
 
 .nav-link {
-    font-family: 'Handlee' !important;
+    font-family: 'PT Sans', sans-serif !important;
     font-size: 1.2em !important;
 }
 
 .navbar-brand {
-    font-family: 'Handlee' !important;
+    font-family: 'PT Sans', sans-serif !important;
     font-size: 1.5em !important;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .toolbox-title {
-    font-family: 'Handlee';
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     color: #DE0001 !important;
 }
@@ -103,29 +103,33 @@
 }
 
 .toolbox-text {
-    font-family: 'Handlee' !important;
+    font-family: 'PT Sans', sans-serif !important;
     font-weight: 700 !important;
 }
 
 .projects-section {
-    background-color: #FFCE13 !important;
+    /* background-color: #FFCE13 !important; */
 }
 
 .projects-title {
-    font-family: 'Handlee' !important;
+    font-family: 'PT Sans', sans-serif !important;
     font-weight: 700 !important; 
-    color: #343a40  !important;  
+    color: #fff  !important;  
+}
+
+.projects-divider {
+    border-color: #DE0001 !important;
 }
 
 .project-category {
-    font-family: 'Merriweather Sans' !important;
+    font-family: 'PT Sans', sans-serif !important;
     font-size: 1.25em !important;
     color: #fff !important;
     font-weight: 800 !important;
 }
 
 .project-name {
-    font-family: 'Merriweather Sans' !important;
+    font-family: 'PT Sans', sans-serif !important;
     font-size: 1.5em !important;
     color: #FFCE13 !important;
     margin-bottom: .5em;
@@ -133,7 +137,7 @@
 
 .project-box {
     position:relative !important;
-    background-color: #fff !important;
+    background-color: #f8fafc !important;
 }
 
 .project-caption {
@@ -164,9 +168,15 @@
     margin-bottom: 15px;
     font-size: 8em;
 }
+
 .fa-dev.action-icon:hover {
     color: black;
 }
+
 .fa-youtube.action-icon:hover {
     color: rgb(255,0,0);
+}
+
+.contact {
+    font-family: 'PT Sans', sans-serif !important;
 }
